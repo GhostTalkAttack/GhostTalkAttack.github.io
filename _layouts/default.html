@@ -28,7 +28,7 @@
 		<div class = "global_container">
 			<div class = "section"  >
 
-				<h1>GhostTalk: Interactive Attack on Smartphone Voice System Through Power Line</h1>
+				<h2>GhostTalk: Interactive Attack on Smartphone Voice System Through Power Line</h2>
 				<div class ="boxed">
 					<p> Inaudible voice command injection is one of the most threatening attacks towards voice assistants. Existing attacks aim at injecting the attack signals over the air, but they require the access to the authorized user’s voice for activating the voice assistants. Moreover, the effectiveness of the attacks can be greatly deteriorated in a noisy environment. In this paper, we explore a new type of channel, the power line side-channel, to launch the inaudible voice command injection.
 					</p>
@@ -37,7 +37,7 @@
 	</div>
 
 
-				<h1>Features of GhostTalk</h1>
+				<h2>Features of GhostTalk</h2>
 
 					<ul>
 						<li class="question">
@@ -55,187 +55,65 @@
 						First, GhostTalk can simultaneously achieve two attack goals, i.e., voice injection and eavesdropping; Second, GhostTalk does not require any prior knowledge about the victim's voice. In comparsion, it can bypass the user verfication through the backdoor in the charging port; Third, GhostTalk is resilient to noisy environments and liveness detection systems.
 					</p>
 					<div class ="boxed">
-						<img src="assets/scenarios.jpg" width="800px" height="400px">
+						<img src="assets/scenarios.jpg" width="1150px" height="250px">
 					</div>
 
+					<h2>GhostTalk Human Study</h2>
+					<div class ="boxed">
+						<p> There are natural speech audios and injected speech audios via GhostTalk. Can you distinguish them?
+						</p>
+					</div>
 
-					<table>
-  				<tr>
-    			  <th>Manufacturer</th>
-    			  <th>Model</th>
-						<th>Carrier fc(kHz)</th>
-						<th>Distance (m)</th>
-  				</tr>
-
-  				<tr>
-    				<td>Apple</td>
-    				<td>iPhone 7Plue</td>
-						<td>21-29</td>
-						<td>0.49</td>
-  				</tr>
-
-					<tr>
-    				<td>Apple</td>
-    				<td>iPhone SE2</td>
-    				<td>23-28</td>
-						<td>1.77</td>
-  				</tr>
-
-					<tr>
-    				<td>Apple</td>
-    				<td>iPad Air 3</td>
-    				<td>27-32</td>
-						<td>3.72</td>
-  				</tr>
-
-					<tr>
-    				<td>Xiaomi</td>
-    				<td>Mi 8 Lite</td>
-    				<td>24-32</td>
-						<td>1.65</td>
-  				</tr>
-
-					<tr>
-    				<td>Xiaomi</td>
-    				<td>POCOPHONE</td>
-    				<td>22-29</td>
-						<td>0.7</td>
-  				</tr>
-
-					<tr>
-    				<td>Samsung</td>
-    				<td>Galaxy S9</td>
-    				<td>25-31</td>
-						<td>3.64</td>
-  				</tr>
-</table><br>
-
-
-
-						<b> What can the wavePB do?</b>
-								<li class="answer">  &#9733 Hide your voice in the public (with only 3 enroll voices)</li>
-								<li class="answer">  &#9733 Prevent your voice be recorded by eavesdropper </li>
-								<li class="answer">  &#9733 Removing your voice passively while keep others recording normally </li>
-								<li class="answer">  &#9733 And much more... </li>
-						</li>
-						<p></p>
-
-
-					</ul>
-				<h2>WavePB demonstration</h2>
-
-				<h3> Hide bob's voice while retaining Alice's voice on Alice's phone.
-					<br>
-					<br>
 					<div style="margin-top=5em;">
 						<table>
 						<tr>
-	    				<td>Bob and Alice talk simultanously</td>
-	    				<td>Only Alice's voice is kept</td>
-	  				</tr>
+							<td>Group A</td>
+						</tr>
 						<tr>
-	    				<td><audio controls>
-								  <source src="./assets/joint.wav" type="audio/wav">
-								  Your browser does not support the <code>audio</code> element.
+							<td><audio controls>
+									<source src="./assets/01_A.wav" type="audio/wav">
+									Your browser does not support the <code>audio</code> element.
 								</audio></td>
-	    				<td><audio controls>
-								  <source src="./assets/joint-focus.wav" type="audio/wav">
-								  Your browser does not support the <code>audio</code> element.
-								</audio></td>
-	  				</tr>
-						<tr>
-	    				<td>Bob and Alice have a conversation</td>
-	    				<td>Only Alice's voice is kept</td>
-	  				</tr>
-						<tr>
-							<td>
-						<audio controls>
-							  <source src="./assets/conversation.wav" type="audio/wav">
-							  Your browser does not support the <code>audio</code> element.
-							</audio></td>
-							<td>
-							<audio controls>
-								  <source src="./assets/conversation-hide.wav" type="audio/wav">
-								  Your browser does not support the <code>audio</code> element.
+							<td><audio controls>
+									<source src="./assets/01_B.wav" type="audio/wav">
+									Your browser does not support the <code>audio</code> element.
 								</audio></td>
 						</tr>
-
-						<!-- <tr>
-	    				<td>Babble</td>
-	    				<td>Focused</td>
-	  				</tr>
 						<tr>
-							<td>
-						<audio controls>
-							  <source src="./assets/babble.wav" type="audio/wav">
-							  Your browser does not support the <code>audio</code> element.
-							</audio></td>
-							<td>
-							<audio controls>
-								  <source src="./assets/babble-focus.wav" type="audio/wav">
-								  Your browser does not support the <code>audio</code> element.
+						<td>Group B</td>
+						</tr>
+						<tr>
+							<td><audio controls>
+									<source src="./assets/02_A.wav" type="audio/wav">
+									Your browser does not support the <code>audio</code> element.
 								</audio></td>
-							<tr> -->
-						</table>
-							</div>
-					<br>
-					<br>
+							<td><audio controls>
+									<source src="./assets/02_B.wav" type="audio/wav">
+									Your browser does not support the <code>audio</code> element.
+								</audio></td>
+						</tr>
+					</table>
 
+					<h2>GhostTalk Demo</h2>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/YUQqMCGIIik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-					<h3> Hide Bob's voice on Attacker's recorder while retaining others' voice.
-						<!-- <br>
+					<h2>GhostTalk-SC Attack</h2>
+					<div class ="boxed">
+						<p>In case when the smartphones are charged by an unaltered standard cable, we discover that it is possible to recover the audio signal from smartphone loudspeakers by monitoring the charging current on the power line.
+						</p>
 						<br>
-						<div style="margin-top=5em;">
-							<table>
-							<tr>
-								<td>Joint</td>
-								<td>Hidden</td>
-							</tr>
-							<tr>
-								<td><audio controls>
-										<source src="./assets/joint.wav" type="audio/wav">
-										Your browser does not support the <code>audio</code> element.
-									</audio></td>
-								<td><audio controls>
-										<source src="./assets/joint-hide.wav" type="audio/wav">
-										Your browser does not support the <code>audio</code> element.
-									</audio></td>
-							</tr>
-							<tr>
-								<td>Conversation</td>
-								<td>Hidden</td>
-							</tr>
-							<tr>
-								<td>
-							<audio controls>
-									<source src="./assets/conversation.wav" type="audio/wav">
-									Your browser does not support the <code>audio</code> element.
-								</audio></td>
-								<td>
-								<audio controls>
-										<source src="./assets/conversation-hide.wav" type="audio/wav">
-										Your browser does not support the <code>audio</code> element.
-									</audio></td>
-							</tr> -->
-							<table>
-							<tr>
-								<td>Bob's talk in the cloud with human noise</td>
-								<td>Attacker can only record human noises</td>
-							</tr>
-							<tr>
-								<td>
-							<audio controls>
-									<source src="./assets/babble2.wav" type="audio/wav">
-									Your browser does not support the <code>audio</code> element.
-								</audio></td>
-								<td>
-								<audio controls>
-										<source src="./assets/babble-hide.wav" type="audio/wav">
-										Your browser does not support the <code>audio</code> element.
-									</audio></td>
-								<tr>
-							</table>
-								</div>
+						<p>To demonstrate the feasibility, we design GhostTalk-SC (Standard Cable), an adaptive eavesdropper system targeting smartphones charged in public USB ports.  To correctly recognize the private information in the audio, GhostTalk-SC carefully extracts audio spectra and integrates a neural network model to classify spoken digits in the speech. </p>
+		</div>
+		<div class ="boxed">
+			<img src="assets/Picture3.jpg" width="800px" height="450px">
+		</div>
+			<h2>Countermeasure Recommendations</h2>
+
+					<ul>
+								<li class="answer">  &#9733 Disable the voice assistant activation by headphones.</li>
+								<li class="answer">  &#9733 Add headphone notification. </li>
+								<li class="answer">  &#9733 Stop charging after reaching high percentage battery level. </li>
+					</ul>
 
 	</body>
 </html>
