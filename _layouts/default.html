@@ -28,7 +28,7 @@
 		<div class = "global_container">
 			<div class = "section"  >
 
-				<h2>GhostTalk: Interactive Attack on Smartphone Voice System Through Power Line</h2>
+				<h1>GhostTalk: Interactive Attack on Smartphone Voice System Through Power Line</h1>
 				<div class ="boxed">
 					<p> Inaudible voice command injection is one of the most threatening attacks towards voice assistants. Existing attacks aim at injecting the attack signals over the air, but they require the access to the authorized user’s voice for activating the voice assistants. Moreover, the effectiveness of the attacks can be greatly deteriorated in a noisy environment. In this paper, we explore a new type of channel, the power line side-channel, to launch the inaudible voice command injection.
 					</p>
@@ -50,12 +50,12 @@
 					<p class="answer">
 						New generations of smartphones have discarded 3.5mm headphone jack and integrated the headphone audio functions into the charging port. This innovation revamps the outlook of smartphones, but it imposes new threats to the smartphone audio system when users are charging in public spaces. Theoretically, all smartphones with Lightning or USB-C charging ports are vulnerable to GhostTalk.
 					</p>
-					<b>What's the key contribution of GhostTalk?</b>
+					<b>What's the key contributions of GhostTalk?</b>
 					<p class="answer">
 						First, GhostTalk can simultaneously achieve two attack goals, i.e., voice injection and eavesdropping; Second, GhostTalk does not require any prior knowledge about the victim's voice. In comparsion, it can bypass the user verfication through the backdoor in the charging port; Third, GhostTalk is resilient to noisy environments and liveness detection systems.
 					</p>
 					<div class ="boxed">
-						<img src="assets/scenarios.jpg" width="1150px" height="250px">
+						<img src="assets/scenarios.jpg" width="1000px" height="220px">
 					</div>
 
 					<h2>GhostTalk Human Study</h2>
@@ -65,10 +65,8 @@
 					</div>
 
 					<div style="margin-top=5em;">
+						<h3> Group A </h3>
 						<table>
-						<tr>
-							<td>Group A</td>
-						</tr>
 						<tr>
 							<td><audio controls>
 									<source src="./assets/01_A.wav" type="audio/wav">
@@ -79,10 +77,9 @@
 									Your browser does not support the <code>audio</code> element.
 								</audio></td>
 						</tr>
-						<tr>
-						<td>Group B</td>
-						</tr>
-						<tr>
+					</table>
+					<h3> Group B </h3>
+					<table>
 							<td><audio controls>
 									<source src="./assets/02_A.wav" type="audio/wav">
 									Your browser does not support the <code>audio</code> element.
@@ -91,12 +88,12 @@
 									<source src="./assets/02_B.wav" type="audio/wav">
 									Your browser does not support the <code>audio</code> element.
 								</audio></td>
-						</tr>
 					</table>
 
 					<h2>GhostTalk Demo</h2>
+					<div class ="centered">
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/YUQqMCGIIik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+					</div>
 					<h2>GhostTalk-SC Attack</h2>
 					<div class ="boxed">
 						<p>In case when the smartphones are charged by an unaltered standard cable, we discover that it is possible to recover the audio signal from smartphone loudspeakers by monitoring the charging current on the power line.
@@ -104,15 +101,15 @@
 						<br>
 						<p>To demonstrate the feasibility, we design GhostTalk-SC (Standard Cable), an adaptive eavesdropper system targeting smartphones charged in public USB ports.  To correctly recognize the private information in the audio, GhostTalk-SC carefully extracts audio spectra and integrates a neural network model to classify spoken digits in the speech. </p>
 		</div>
-		<div class ="boxed">
+		<div class ="centered">
 			<img src="assets/Picture3.jpg" width="800px" height="450px">
 		</div>
 			<h2>Countermeasure Recommendations</h2>
 
 					<ul>
-								<li class="answer">  &#9733 Disable the voice assistant activation by headphones.</li>
-								<li class="answer">  &#9733 Add headphone notification. </li>
-								<li class="answer">  &#9733 Stop charging after reaching high percentage battery level. </li>
+								<li class="answer">   Disable the voice assistant activation by headphones.</li>
+								<li class="answer">   Add headphone notification. </li>
+								<li class="answer">   Stop charging after reaching high percentage battery level. </li>
 					</ul>
 
 	</body>
