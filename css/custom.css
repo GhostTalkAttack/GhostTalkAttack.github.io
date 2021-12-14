@@ -41,7 +41,7 @@ a:active {
 .centered{
 	margin: auto;
 	max-width: 1800px;
-	text-align:left;
+	text-align:center;
 }
 
 
@@ -85,7 +85,7 @@ a:active {
 				text-align: center;
 				font-family: Arial;
 				font-weight: bold;
-				font-size: 34pt;
+				font-size: 32pt;
 				color: #38761d;
 				padding-bottom: 13px;
 				padding-top: 5px;
