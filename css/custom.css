@@ -62,7 +62,7 @@ a:active {
 			}
 			.global_container {
 				text-align: center;
-				width: 120%;
+				width: 100%;
 
 				display: flex;
 				align-items: center;
